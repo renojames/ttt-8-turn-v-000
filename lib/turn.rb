@@ -7,6 +7,7 @@ def turn(board)
   valid_move?(board, index)
   if valid_move? = false
     user_input = gets.strip
+  end
 end
 
 def display_board(board)
