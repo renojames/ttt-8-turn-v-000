@@ -5,6 +5,8 @@ def turn
   user_input = gets.strip
   input_to_index(user_input)
 
+end
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
