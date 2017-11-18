@@ -8,6 +8,7 @@ def turn(board)
     user_input = gets.strip
   else move(board, index, value = "X")
   end
+  display_board(board)
 end
 
 def display_board(board)
